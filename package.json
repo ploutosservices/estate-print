@@ -1,0 +1,34 @@
+{
+  "name": "@ploutosservices/estate-print",
+  "version": "1.0.0",
+  "description": "A printed web page without its screen frame: the top bar, side nav and footer left out, and every sheet's margins carrying the page's title, its address, when and by whom it was printed, and page N of M.",
+  "license": "Apache-2.0",
+  "author": "Ploutos Services",
+  "keywords": [
+    "print",
+    "print-css",
+    "paged-media",
+    "page-margin-boxes",
+    "css",
+    "vanilla-js",
+    "no-framework"
+  ],
+  "style": "print/estate-print.css",
+  "browser": "print/estate-print.js",
+  "files": [
+    "print/",
+    "LICENSE",
+    "NOTICE",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ploutosservices/estate-print.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ploutosservices/estate-print/issues"
+  }
+}
